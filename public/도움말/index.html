@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>도움말</title>
+    <link rel="icon" href="/files/favicon.ico">
+    <meta name="description" content="용인문정중학교 바로가기 도움말">
+    <!-- css는 루트 index와 같음 -->
+    <style>
+        @font-face {
+            font-family: 'CustomFont1';
+            src: url('/files/text1.ttf') format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'CustomFont2';
+            src: url('/files/text2.ttf') format('truetype');
+        }
+        
+        body {
+            background-color: #f0f0f0;
+            
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px;
+        }
+        h1 {
+            color: #0073e6;
+            margin-bottom: 20px;
+            font-family: 'CustomFont2', Arial, sans-serif;
+        }
+        .btn {
+            display: block;
+            font-family: 'CustomFont1', Arial, sans-serif;
+            width: 100%;
+            max-width: 600px;
+            margin: 10px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #0073e6;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #005bb5;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+        }
+
+        @media (min-width: 601px) and (max-width: 1024px) {
+            h1 {
+                font-size: 32px;
+            }
+        }
+
+        @media (min-width: 1025px) {
+            h1 {
+                font-size: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    </br>
+    <div class="container">
+        <button class="btn" onclick="window.location.href='/';"><p>바로가기는 바로 사이트에 연결되고 첨부파일은 pdf로 다운로드 됩니다.</p></button>
+    </div>
+</body>
+</html>

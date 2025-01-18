@@ -1,0 +1,110 @@
+<!-- 2024.6.8 © swk -->
+<!-- 문제시 삭제하겠습니다. -->
+<!-- admin@suhang.kro.kr -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>식단표</title>
+    <link rel="icon" href="/files/favicon.ico">
+    <meta name="description" content="용인문정중학교 식단표">
+    <!-- css는 루트 index와 같음 -->
+    <style>
+        @font-face {
+            font-family: 'CustomFont1';
+            src: url('/files/text1.ttf') format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'CustomFont2';
+            src: url('/files/text2.ttf') format('truetype');
+        }
+        
+        body {
+            background-color: #f0f0f0;
+            
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px;
+        }
+        h1 {
+            color: #0073e6;
+            margin-bottom: 20px;
+            font-family: 'CustomFont2', Arial, sans-serif;
+        }
+        .btn {
+            display: block;
+            font-family: 'CustomFont1', Arial, sans-serif;
+            width: 100%;
+            max-width: 400px;
+            margin: 10px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #0073e6;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #005bb5;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+        }
+
+        @media (min-width: 601px) and (max-width: 1024px) {
+            h1 {
+                font-size: 32px;
+            }
+        }
+
+        @media (min-width: 1025px) {
+            h1 {
+                font-size: 40px;
+            }
+        }
+
+        /* Footer style */
+        footer {
+            margin-top: auto;
+            padding: 10px 0;
+            font-size: 12px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    </br>
+    <div class="container">
+        <!--h1>6월 2~4주 식단표</h1>
+        <button class="btn" onclick="window.location.href='/files/식단표(1).png';">6.10 ~ 6.14</button>
+        <button class="btn" onclick="window.location.href='/files/식단표(2).png';">6.17 ~ .6.21</button>
+        <button class="btn" onclick="window.location.href='/files/식단표(3).png';">6.24 ~ 6.28</button-->
+        <button class="btn" onclick="window.location.href='https://munjung-m.goeyi.kr/munjung-m/ad/fm/foodmenu/selectFoodMenuView.do?mi=19126';">전체</button>
+    </div>
+    <footer>
+        <!--<a href="https://instagram.com/s.won.kyeom.dev" style="text-decoration: none;color: #999;">@s.won.kyeom.dev</a> | -->
+        <a href="mailto:admin@swk.o-r.kr" style="text-decoration: none;color: #999;">admin@swk.o-r.kr</a>
+    </footer>
+</body>
+</html>
